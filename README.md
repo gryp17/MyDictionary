@@ -1,5 +1,5 @@
 # MyDictionary
-Basic AngularJS dictionary app that uses a PHP backend. It uses custom MVC PHP backend (the same used in [Tablaturi-BG](https://github.com/gryp17/Tablaturi-bg-AngularJS)) with MySQL database and AngularJS v1.5 as front end.
+Basic AngularJS dictionary app that uses a PHP backend. It uses custom MVC PHP backend (the same one used in [Tablaturi-BG](https://github.com/gryp17/Tablaturi-bg-AngularJS)) with MySQL database and AngularJS v1.5 as front end.
 It doesn't use any CSS preprocesors, build tools or dependency managers because I couldn't be bothered with them for such a small project.
 
 ## Installation

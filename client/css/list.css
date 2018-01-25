@@ -1,0 +1,68 @@
+/* Words list */
+#toolbar{
+	margin-bottom: 10px;
+}
+
+#add-word-button{
+	margin-left: 5px;
+}
+
+#list-wrapper thead{
+	font-weight: bold;
+}
+
+#list-wrapper thead td{
+	width: 33%;
+}
+
+#list-wrapper thead td:not(:last-child){
+	cursor: pointer;
+}
+
+#list-wrapper thead td.active{
+	color: green;
+}
+
+#list-wrapper thead img{
+	display: none;
+	width: 15px;
+}
+
+#list-wrapper thead td.active img{
+	display: inline;
+}
+
+#list-wrapper thead img.reverse{
+	transform: rotate(180deg);
+}
+
+#list-wrapper tbody tr:hover{
+	cursor: pointer;
+}
+
+/* Pagination */
+.pagination-wrapper button img{
+	margin-top: -3px;
+	width: 19px;
+	height: 19px;
+}
+
+#list-wrapper .pagination-wrapper > div{
+	padding: 0px 3px;
+}
+
+.pagination-wrapper > div:first-child button img{
+	transform: rotate(180deg);
+}
+
+/* Media queries */
+@media (max-width: 575px){
+	#add-word-button{
+		margin-top: 5px;
+		margin-left: 0px;
+	}
+	
+	#list-wrapper thead td{
+		width: 50%;
+	}
+}

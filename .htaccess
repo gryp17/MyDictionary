@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine On
+
+#change the base when moving to another domain
+RewriteBase /MyDictionary
+
+#redirect all API calls to the index.php
+RewriteRule ^API/(.*)$ index.php?url=$1 [QSA,NC,L]
+
+#let angular do it's thing
+RewriteCond %{REQUEST_FILENAME} !-f      
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [NC,L]

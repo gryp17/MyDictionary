@@ -1,0 +1,35 @@
+/* Common rules */
+body{
+	background-image: url("../img/bg.png");
+}
+
+#header{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #e74c3c;
+}
+
+#view-wrapper{
+	background-color: #ecf0f1;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn.disabled, .btn:disabled{
+	cursor: not-allowed;
+}
+
+input[type="text"].error, textarea.error{
+	box-shadow: 0 0 0 .2rem rgba(255, 0, 0, 0.3);
+	border-color: transparent;
+}
+
+@media (max-width: 575px){	
+	#header{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}

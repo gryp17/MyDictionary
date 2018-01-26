@@ -16,6 +16,10 @@ body{
 	background-color: #ecf0f1;
 	padding: 10px;
 	border-radius: 5px;
+	border: solid 1px #c8c8c8;
+	-webkit-box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.18);
+	-moz-box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.18);
+	box-shadow: 7px 5px 5px 0px rgba(0,0,0,0.18);
 }
 
 .btn.disabled, .btn:disabled{
